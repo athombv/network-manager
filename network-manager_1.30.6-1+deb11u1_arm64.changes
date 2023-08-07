@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Mon, 21 Mar 2022 15:47:28 +0100
+Source: network-manager
+Binary: gir1.2-nm-1.0 libnm-dev libnm0 libnm0-dbgsym network-manager network-manager-config-connectivity-debian network-manager-dbgsym network-manager-dev
+Architecture: arm64 all
+Version: 1.30.6-1+deb11u1
+Distribution: bullseye
+Urgency: medium
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Changed-By: Michael Biebl <biebl@debian.org>
+Description:
+ gir1.2-nm-1.0 - GObject introspection data for the libnm library
+ libnm-dev  - GObject-based client library for NetworkManager (development file
+ libnm0     - GObject-based client library for NetworkManager
+ network-manager - network management framework (daemon and userspace tools)
+ network-manager-config-connectivity-debian - NetworkManager configuration to enable connectivity checking
+ network-manager-dev - network management framework (development files)
+Changes:
+ network-manager (1.30.6-1+deb11u1) bullseye; urgency=medium
+ .
+   * Set debian-branch to debian/bullseye
+   * Revert "supplicant: enable WPA3 for WPA-PSK connections"
+     Enabling WPA3 automatically for key_mgmt=wpa-psk is a change in
+     behaviour which might have unintended side effects and thus not suitable
+     for a stable upload.
+Checksums-Sha1:
+ ae37067d3ad8991babe504c534445fef856b2518 101772 gir1.2-nm-1.0_1.30.6-1+deb11u1_arm64.deb
+ e7717117b200453067515b1b3a84d3050026cac1 707660 libnm-dev_1.30.6-1+deb11u1_arm64.deb
+ 60fb95ccf30012d4ea4026cbd8b0526a44601f5f 2355340 libnm0-dbgsym_1.30.6-1+deb11u1_arm64.deb
+ e8fd1ae6eaf2672a3faaf7622c0a71ad4505deef 412620 libnm0_1.30.6-1+deb11u1_arm64.deb
+ a57e2ea949950d4b32a30268c2db62f3f03b01e1 35860 network-manager-config-connectivity-debian_1.30.6-1+deb11u1_all.deb
+ 0d16997b83fbd6aee78460df8690694df536427a 11151296 network-manager-dbgsym_1.30.6-1+deb11u1_arm64.deb
+ 49358365015f493ce6e64e479cca1536b5b18ba3 216676 network-manager-dev_1.30.6-1+deb11u1_all.deb
+ 0ad1381bcb911e5fcbb234eb7cece8b0b485883a 12894 network-manager_1.30.6-1+deb11u1_arm64.buildinfo
+ fd4eca9eae8defc3d3a2f9cf015d793ff18e6a23 2928208 network-manager_1.30.6-1+deb11u1_arm64.deb
+Checksums-Sha256:
+ 9a0e4ddd898261ae5ce6aa52e0f443e60930ce82f6a7eddb1f2f243c1583027a 101772 gir1.2-nm-1.0_1.30.6-1+deb11u1_arm64.deb
+ a6bfb8a8770bc7850cc1f293ccfb7c6a97fa1164a824e968383f6c79796a245e 707660 libnm-dev_1.30.6-1+deb11u1_arm64.deb
+ d593e3a6838a563c4538d190310aa0f802e8edf751d24df85a0ce24a418a3a55 2355340 libnm0-dbgsym_1.30.6-1+deb11u1_arm64.deb
+ 6a4804099bdf89d95f8a813402dc09a68955cd40bacaced4832f54b659f52bb9 412620 libnm0_1.30.6-1+deb11u1_arm64.deb
+ b7b9a2a6b88f835433fa7b48197ec7826b36f688515e264191834ed385f4d13b 35860 network-manager-config-connectivity-debian_1.30.6-1+deb11u1_all.deb
+ b63dc8a2dba0be4a1b5ad11290400271c0d7b33dc2a7bea2872e9588d356ed8d 11151296 network-manager-dbgsym_1.30.6-1+deb11u1_arm64.deb
+ e33dfa35d522c2fc0b28a4823e9b49c6737c4d7cd562a5314b7872dec84d2937 216676 network-manager-dev_1.30.6-1+deb11u1_all.deb
+ 8a440bde774da69e73b20f2ed59f6557d39a822b9945b992b14cf46a9ca8c8fe 12894 network-manager_1.30.6-1+deb11u1_arm64.buildinfo
+ e86c20ffdd496d9a4b551d5693230d82007d91d8865c2b9fa21f56b05d05ea1f 2928208 network-manager_1.30.6-1+deb11u1_arm64.deb
+Files:
+ 9bfb05072a1c28bb3d2b15dd490eb9fb 101772 introspection optional gir1.2-nm-1.0_1.30.6-1+deb11u1_arm64.deb
+ 58cb264926ddbd7bcbfa4874e488f72b 707660 libdevel optional libnm-dev_1.30.6-1+deb11u1_arm64.deb
+ 02a151d52bf10a72972a6dc86894167a 2355340 debug optional libnm0-dbgsym_1.30.6-1+deb11u1_arm64.deb
+ 0f6a665da92cd48b5d3bda8a6be244f0 412620 libs optional libnm0_1.30.6-1+deb11u1_arm64.deb
+ f27648bdee01288602dbfb0e55fb38f6 35860 net optional network-manager-config-connectivity-debian_1.30.6-1+deb11u1_all.deb
+ b3e602737c72dc5be85dbffc6d7c4498 11151296 debug optional network-manager-dbgsym_1.30.6-1+deb11u1_arm64.deb
+ c3d4e51f7cfc77f95135b2dcef10fe87 216676 devel optional network-manager-dev_1.30.6-1+deb11u1_all.deb
+ df7a177c1ba833d2b897721538b89135 12894 net optional network-manager_1.30.6-1+deb11u1_arm64.buildinfo
+ c36fb94b4b2fcbdb9233d812adfd54f9 2928208 net optional network-manager_1.30.6-1+deb11u1_arm64.deb
