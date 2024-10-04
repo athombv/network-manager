@@ -19,4 +19,6 @@ The following patches were applied:
 
 `cd network-manager/network-manager-1.30.6`
 
+Update version by adding entry to debian/changelog file.
+
 `DEB_BUILD_OPTIONS=nocheck debuild -b -us -uc -d`
