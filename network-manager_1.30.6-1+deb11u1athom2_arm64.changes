@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Fri, 04 Oct 2024 14:28:13 +0200
+Source: network-manager
+Binary: gir1.2-nm-1.0 libnm-dev libnm0 libnm0-dbgsym network-manager network-manager-config-connectivity-debian network-manager-dbgsym network-manager-dev
+Architecture: arm64 all
+Version: 1.30.6-1+deb11u1athom2
+Distribution: bullseye
+Urgency: medium
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Changed-By: Teun van Run <teun.vanrun@athom.nl>
+Description:
+ gir1.2-nm-1.0 - GObject introspection data for the libnm library
+ libnm-dev  - GObject-based client library for NetworkManager (development file
+ libnm0     - GObject-based client library for NetworkManager
+ network-manager - network management framework (daemon and userspace tools)
+ network-manager-config-connectivity-debian - NetworkManager configuration to enable connectivity checking
+ network-manager-dev - network management framework (development files)
+Changes:
+ network-manager (1.30.6-1+deb11u1athom2) bullseye; urgency=medium
+ .
+   * Backport of https://github.com/nettools/n-dhcp4/pull/33. Fix renew
+     nak issue.
+Checksums-Sha1:
+ 2d3d9e02c56cf8cfac91203a0360ee4adc4888e6 101988 gir1.2-nm-1.0_1.30.6-1+deb11u1athom2_arm64.deb
+ 8cab1879f6125aeca9c2885ce8f398f490a7fc53 702768 libnm-dev_1.30.6-1+deb11u1athom2_arm64.deb
+ 1853c3aaf66a1f41474299553df208a0e225a0bf 2355116 libnm0-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 02f8ed78a49a1f6d888ae8ad989635d4e75ef5bd 412644 libnm0_1.30.6-1+deb11u1athom2_arm64.deb
+ 12a4c28d7332fc84ee832b6e125d68e291d4cb28 36000 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom2_all.deb
+ 3a8baee3bc44ed59d5d8cbcdbab9cbe36c17dfaf 11148896 network-manager-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ efa82e8658f0132371b9d6919f28477bf5b866ea 216840 network-manager-dev_1.30.6-1+deb11u1athom2_all.deb
+ 1b8faaacf1cd72ebe2774b18180d583e042a3494 12697 network-manager_1.30.6-1+deb11u1athom2_arm64.buildinfo
+ c1ede0981af0a7d02d26492aa73bcdb66446cdba 2868724 network-manager_1.30.6-1+deb11u1athom2_arm64.deb
+Checksums-Sha256:
+ ab2ed45630502bf3bf58b77abf36cfb4603ad1f2f8b39834183dc4ca7b73fead 101988 gir1.2-nm-1.0_1.30.6-1+deb11u1athom2_arm64.deb
+ 3bd0261e64c43eeb10c547935d8bbff637ca80347a59c010dde4a3782f769c9e 702768 libnm-dev_1.30.6-1+deb11u1athom2_arm64.deb
+ dc8f3f21d0b3d7729b2b202ff01248af5ac56dd3cebd3bfb7542819be8c42662 2355116 libnm0-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 44413d0c429175b439c98824b0b857efacd73a01bad36288b03407d0094108dc 412644 libnm0_1.30.6-1+deb11u1athom2_arm64.deb
+ 49e5a6966401a2855a3bd2ba2e2db89ddd81d6d101f2231aa9f0117fda1a55bd 36000 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom2_all.deb
+ a42839ca5aa7c74e538727bf9c5dfc017441769a6e53e5564f062554fbac4e53 11148896 network-manager-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 55f9ac4f7159de893c5856e1ab3e525c38bdc151548b3cd7b6c25bc4f256bfe9 216840 network-manager-dev_1.30.6-1+deb11u1athom2_all.deb
+ b29c091a17c316cb9de4a8e77923e57babe6ba9d86059ce5dd7129f1620cd54d 12697 network-manager_1.30.6-1+deb11u1athom2_arm64.buildinfo
+ b59ab56231658e214dd6c336505291a3b1a13fd81946af6e3e431b21ebf439ae 2868724 network-manager_1.30.6-1+deb11u1athom2_arm64.deb
+Files:
+ 2aa2571647731631607a2afaca269e9e 101988 introspection optional gir1.2-nm-1.0_1.30.6-1+deb11u1athom2_arm64.deb
+ 2f7f510466e63f7ab5ff8931b991db1b 702768 libdevel optional libnm-dev_1.30.6-1+deb11u1athom2_arm64.deb
+ 45637cdd4ed5ce698b19a461757da8e4 2355116 debug optional libnm0-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ b5fd0354f383840551c66ff8d4bae45c 412644 libs optional libnm0_1.30.6-1+deb11u1athom2_arm64.deb
+ 30a7d1c75a0f7791107517300391af18 36000 net optional network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom2_all.deb
+ f3e213be328d580f3f75910fd05d94f7 11148896 debug optional network-manager-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 8ccc6dfdfd3746cc4e087770070aa881 216840 devel optional network-manager-dev_1.30.6-1+deb11u1athom2_all.deb
+ 2bdf5c64865b50f8de9249fc45a936e6 12697 net optional network-manager_1.30.6-1+deb11u1athom2_arm64.buildinfo
+ bac9ff9125d519cb7fe9ccaf3697a014 2868724 net optional network-manager_1.30.6-1+deb11u1athom2_arm64.deb

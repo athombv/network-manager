@@ -2,37 +2,37 @@ Format: 1.0
 Source: network-manager
 Binary: gir1.2-nm-1.0 libnm-dev libnm0 libnm0-dbgsym network-manager network-manager-config-connectivity-debian network-manager-dbgsym network-manager-dev
 Architecture: all arm64
-Version: 1.30.6-1+deb11u1athom
+Version: 1.30.6-1+deb11u1athom2
 Checksums-Md5:
- 02f456c534d7160eb5a80cd7c01d8545 101856 gir1.2-nm-1.0_1.30.6-1+deb11u1athom_arm64.deb
- c556836a16f2a68a8fbaeb377aba95ac 702780 libnm-dev_1.30.6-1+deb11u1athom_arm64.deb
- 06812c8ba9ee5cb826aff62f4c5d2e85 2354716 libnm0-dbgsym_1.30.6-1+deb11u1athom_arm64.deb
- 4b58c5d570e2306be94f3b71a3e6a5ff 412444 libnm0_1.30.6-1+deb11u1athom_arm64.deb
- f7cbb2925c7509a4f2bd13062af8e4ff 35924 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom_all.deb
- 665eeeebb9f0cc07e7a723e761865a32 11148184 network-manager-dbgsym_1.30.6-1+deb11u1athom_arm64.deb
- 1170f4120fec5f13eb0e4b7666f93292 216748 network-manager-dev_1.30.6-1+deb11u1athom_all.deb
- 3983d4027d8d48cb99916de842cc0c14 2866908 network-manager_1.30.6-1+deb11u1athom_arm64.deb
+ 2aa2571647731631607a2afaca269e9e 101988 gir1.2-nm-1.0_1.30.6-1+deb11u1athom2_arm64.deb
+ 2f7f510466e63f7ab5ff8931b991db1b 702768 libnm-dev_1.30.6-1+deb11u1athom2_arm64.deb
+ 45637cdd4ed5ce698b19a461757da8e4 2355116 libnm0-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ b5fd0354f383840551c66ff8d4bae45c 412644 libnm0_1.30.6-1+deb11u1athom2_arm64.deb
+ 30a7d1c75a0f7791107517300391af18 36000 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom2_all.deb
+ f3e213be328d580f3f75910fd05d94f7 11148896 network-manager-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 8ccc6dfdfd3746cc4e087770070aa881 216840 network-manager-dev_1.30.6-1+deb11u1athom2_all.deb
+ bac9ff9125d519cb7fe9ccaf3697a014 2868724 network-manager_1.30.6-1+deb11u1athom2_arm64.deb
 Checksums-Sha1:
- 9c6a023b81f64ec345f51625697685eef40463a4 101856 gir1.2-nm-1.0_1.30.6-1+deb11u1athom_arm64.deb
- d5769c326d2ba78ce825ded39da149a918912733 702780 libnm-dev_1.30.6-1+deb11u1athom_arm64.deb
- 63da64b7cc1f69f72c6036b3d3ac02bb7a4ad900 2354716 libnm0-dbgsym_1.30.6-1+deb11u1athom_arm64.deb
- 54c3827fda7d9abbb3422ebd6f04577729f38264 412444 libnm0_1.30.6-1+deb11u1athom_arm64.deb
- 7f3b760977f0f778e88026bb89cb90345e670256 35924 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom_all.deb
- 5bcafa52de8aa465bcf1bfc960040dec63c6d532 11148184 network-manager-dbgsym_1.30.6-1+deb11u1athom_arm64.deb
- 5a0df5376e2031c8987128c1edcd31739fc891f9 216748 network-manager-dev_1.30.6-1+deb11u1athom_all.deb
- 032b44046ef6b39cb66de1d1654972a924feffeb 2866908 network-manager_1.30.6-1+deb11u1athom_arm64.deb
+ 2d3d9e02c56cf8cfac91203a0360ee4adc4888e6 101988 gir1.2-nm-1.0_1.30.6-1+deb11u1athom2_arm64.deb
+ 8cab1879f6125aeca9c2885ce8f398f490a7fc53 702768 libnm-dev_1.30.6-1+deb11u1athom2_arm64.deb
+ 1853c3aaf66a1f41474299553df208a0e225a0bf 2355116 libnm0-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 02f8ed78a49a1f6d888ae8ad989635d4e75ef5bd 412644 libnm0_1.30.6-1+deb11u1athom2_arm64.deb
+ 12a4c28d7332fc84ee832b6e125d68e291d4cb28 36000 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom2_all.deb
+ 3a8baee3bc44ed59d5d8cbcdbab9cbe36c17dfaf 11148896 network-manager-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ efa82e8658f0132371b9d6919f28477bf5b866ea 216840 network-manager-dev_1.30.6-1+deb11u1athom2_all.deb
+ c1ede0981af0a7d02d26492aa73bcdb66446cdba 2868724 network-manager_1.30.6-1+deb11u1athom2_arm64.deb
 Checksums-Sha256:
- d70b21411ba3a4687df813db6d5563a3daff117ba38316e1dc54f552f03b5dd7 101856 gir1.2-nm-1.0_1.30.6-1+deb11u1athom_arm64.deb
- 37995b4cb68fc3bf2e8755203f3cf06b26810a688d2417a3b107ce8d19f45b31 702780 libnm-dev_1.30.6-1+deb11u1athom_arm64.deb
- e507ecafa2948cf34086cc592ce7b2fed706a3bd88f70681d2af9f1149bc8f69 2354716 libnm0-dbgsym_1.30.6-1+deb11u1athom_arm64.deb
- 92a6495c5a9adcea39e67c0b506d9847698512b3a04586eff8c04bcedba0b5cf 412444 libnm0_1.30.6-1+deb11u1athom_arm64.deb
- 38e7355113e5a040ffef503b0e8e7cb60c3dc7d4e7054b40e29e45949d86b1d1 35924 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom_all.deb
- e818b272f83eb5c3662d190b354291451a5b1d6463ccd0d8f1700e6134c35680 11148184 network-manager-dbgsym_1.30.6-1+deb11u1athom_arm64.deb
- 249e52ff5c91b7c415dea0b9739cdc58143e6809a2bdb4bbca58800f8cbdae54 216748 network-manager-dev_1.30.6-1+deb11u1athom_all.deb
- 68d0fc459e66aa3152a65fc1d5c78f2b314c37ef179d4b83c62a3823ff8abccb 2866908 network-manager_1.30.6-1+deb11u1athom_arm64.deb
+ ab2ed45630502bf3bf58b77abf36cfb4603ad1f2f8b39834183dc4ca7b73fead 101988 gir1.2-nm-1.0_1.30.6-1+deb11u1athom2_arm64.deb
+ 3bd0261e64c43eeb10c547935d8bbff637ca80347a59c010dde4a3782f769c9e 702768 libnm-dev_1.30.6-1+deb11u1athom2_arm64.deb
+ dc8f3f21d0b3d7729b2b202ff01248af5ac56dd3cebd3bfb7542819be8c42662 2355116 libnm0-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 44413d0c429175b439c98824b0b857efacd73a01bad36288b03407d0094108dc 412644 libnm0_1.30.6-1+deb11u1athom2_arm64.deb
+ 49e5a6966401a2855a3bd2ba2e2db89ddd81d6d101f2231aa9f0117fda1a55bd 36000 network-manager-config-connectivity-debian_1.30.6-1+deb11u1athom2_all.deb
+ a42839ca5aa7c74e538727bf9c5dfc017441769a6e53e5564f062554fbac4e53 11148896 network-manager-dbgsym_1.30.6-1+deb11u1athom2_arm64.deb
+ 55f9ac4f7159de893c5856e1ab3e525c38bdc151548b3cd7b6c25bc4f256bfe9 216840 network-manager-dev_1.30.6-1+deb11u1athom2_all.deb
+ b59ab56231658e214dd6c336505291a3b1a13fd81946af6e3e431b21ebf439ae 2868724 network-manager_1.30.6-1+deb11u1athom2_arm64.deb
 Build-Origin: Debian
 Build-Architecture: arm64
-Build-Date: Fri, 04 Oct 2024 12:22:24 +0200
+Build-Date: Fri, 04 Oct 2024 14:46:43 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-configs
@@ -356,4 +356,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="nocheck parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1691412863"
+ SOURCE_DATE_EPOCH="1728044893"
