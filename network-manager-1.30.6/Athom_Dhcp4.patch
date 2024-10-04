@@ -1,0 +1,22 @@
+diff --git a/network-manager-1.30.6/shared/n-dhcp4/src/n-dhcp4-c-probe.c b/network-manager-1.30.6/shared/n-dhcp4/src/n-dhcp4-c-probe.c
+index 7f20ac0..c7c53ce 100644
+--- a/network-manager-1.30.6/shared/n-dhcp4/src/n-dhcp4-c-probe.c
++++ b/network-manager-1.30.6/shared/n-dhcp4/src/n-dhcp4-c-probe.c
+@@ -995,15 +995,14 @@ static int n_dhcp4_client_probe_transition_nak(NDhcp4ClientProbe *probe) {
+         case N_DHCP4_CLIENT_PROBE_STATE_RENEWING:
+         case N_DHCP4_CLIENT_PROBE_STATE_REBINDING:
+ 
+-                /* XXX */
+-
+                 r = n_dhcp4_client_probe_raise(probe,
+                                                NULL,
+                                                N_DHCP4_CLIENT_EVENT_RETRACTED);
+                 if (r)
+                         return r;
+ 
+-                probe->state = N_DHCP4_CLIENT_PROBE_STATE_INIT;
++                probe->current_lease = n_dhcp4_client_lease_unref(probe->current_lease);
++		probe->state = N_DHCP4_CLIENT_PROBE_STATE_INIT;
+                 probe->ns_deferred = n_dhcp4_gettime(CLOCK_BOOTTIME) + probe->ns_nak_restart_delay;
+                 probe->ns_nak_restart_delay = C_CLAMP(probe->ns_nak_restart_delay * 2u,
+                                                       UINT64_C(2)   * UINT64_C(1000000000),
