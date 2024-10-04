@@ -5,6 +5,7 @@
 Connect to WiFi: `sudo nmtui`
 
 Update apt: `sudo apt update`
+
 Install required packages: `sudo apt install git fakeroot dh-make devscripts build-essential lintian dh-sequence-gir libgirepository1.0-dev ppp-dev libpcap-dev gtk-doc-tools intltool gettext libgnutls28-dev libaudit-dev libpolkit-agent-1-dev libudev-dev libudev-dev libnss3-dev  libjansson-dev iptables libcurl4-openssl-dev libndp-dev   libreadline-dev libncurses5-dev libncursesw5-dev python3-gi python3-gi-cairo gir1.2-gtk-3.0 gobject-introspection libgirepository1.0-dev libsystemd-dev libaudit-dev  libteam-dev libmm-glib-dev libbluetooth-dev libnewt-dev valac`
 
 The following patches were applied:
