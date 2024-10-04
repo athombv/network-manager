@@ -1,11 +1,6 @@
-* Build instructions *
+# Build instructions
 
 (On raspberry pi)
-
-Connect to WiFi: 
-```
-sudo nmtui
-```
 
 Update apt: 
 ```
