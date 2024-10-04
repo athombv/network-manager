@@ -1,3 +1,12 @@
+# WARNING: Custom Fork of NetworkManager
+
+⚠️ **This is a custom fork of NetworkManager intended solely for internal use.**
+
+**Do not use this version** This fork may contain experimental changes, incomplete features, or hacks that are not suitable for general use and could break standard functionality.
+
+For general use of NetworkManager, please refer to the official repository:
+[NetworkManager Official Repository](https://gitlab.freedesktop.org/NetworkManager/NetworkManager)
+
 # Build instructions
 
 (On raspberry pi)
@@ -20,5 +29,7 @@ The following patches were applied:
 `cd network-manager/network-manager-1.30.6`
 
 Update version by adding entry to debian/changelog file.
+
+Note: for our project we needed to disable Bluetooth: make sure libbluetooth-dev is not installed and `--enable-bluez5-dun \` was removed from debian/rules.
 
 `DEB_BUILD_OPTIONS=nocheck debuild -b -us -uc -d`
