@@ -1,3 +1,10 @@
+network-manager (1.30.6-1+deb11u1athom2) bullseye; urgency=medium
+
+  * Backport of https://github.com/nettools/n-dhcp4/pull/33. Fix renew
+    nak issue.
+
+ -- Teun van Run <teun.vanrun@athom.nl>  Fri, 04 Oct 2024 14:28:13 +0200
+
 network-manager (1.30.6-1+deb11u1athom) bullseye; urgency=medium
 
   * Do not drop PSK when 4 way handshake fails

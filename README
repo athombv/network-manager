@@ -1,4 +1,0 @@
-* Build instructions *
-
-`cd network-manager-1.30.6`
-`DEB_BUILD_OPTIONS=nocheck debuild -b -us -uc -d`
