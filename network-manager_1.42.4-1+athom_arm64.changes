@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Mon, 9 Dec 2024 13:51:06 +0200
+Source: network-manager
+Binary: gir1.2-nm-1.0 libnm-dev libnm0 libnm0-dbgsym network-manager network-manager-config-connectivity-debian network-manager-dbgsym network-manager-dev
+Architecture: arm64 all
+Version: 1.42.4-1+athom
+Distribution: bullseye
+Urgency: medium
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Description:
+ gir1.2-nm-1.0 - GObject introspection data for the libnm library
+ libnm-dev  - GObject-based client library for NetworkManager (development file
+ libnm0     - GObject-based client library for NetworkManager
+ network-manager - network management framework (daemon and userspace tools)
+ network-manager-config-connectivity-debian - NetworkManager configuration to enable connectivity checking
+ network-manager-dev - network management framework (development files)
+Changes:
+ network-manager (1.42.4-1+athom) bullseye; urgency=medium
+ .
+   * Do not drop PSK when 4 way handshake fails
+Checksums-Sha1:
+ 19ce828a2e0d765a936936f13d96914fc7d5230b 77336 gir1.2-nm-1.0_1.42.4-1+athom_arm64.deb
+ 015c48ed8d91dc60c88b20ff8a8fd01a94ed80e2 713424 libnm-dev_1.42.4-1+athom_arm64.deb
+ 3da9f5f41b31035d2014cc6c60be4dc48d46688a 2571884 libnm0-dbgsym_1.42.4-1+athom_arm64.deb
+ 494763e30ad0a82ba1c76dc9b448250b261c2d24 404128 libnm0_1.42.4-1+athom_arm64.deb
+ 18cc027ea0f7e3ca1b8b6cb75bf5065118cad777 7776 network-manager-config-connectivity-debian_1.42.4-1+athom_all.deb
+ 68621e01b35d7601b419282a7961a839a804ccbc 10825328 network-manager-dbgsym_1.42.4-1+athom_arm64.deb
+ e2aa9e26b8b085c370744619812ba85a0292ec30 201908 network-manager-dev_1.42.4-1+athom_all.deb
+ e74e5d24de57d8193cc60354eb1d3979c1b21b1a 12337 network-manager_1.42.4-1+athom_arm64.buildinfo
+ 8ffcf4ff0c9ae026413fe775c28975f50161877d 2959852 network-manager_1.42.4-1+athom_arm64.deb
+Checksums-Sha256:
+ 1ef509df85ac47b09bdaff7038c9857d2635176fb54bc8de8531ea28b838a6a4 77336 gir1.2-nm-1.0_1.42.4-1+athom_arm64.deb
+ 7e8da2956826803fe7100bf151ec7021224f6078fb9a5acaac8c559c66573a55 713424 libnm-dev_1.42.4-1+athom_arm64.deb
+ 984659d08d1e356e797db89a0c96fa3e8d94ec777b50cc8580af1066da239ad1 2571884 libnm0-dbgsym_1.42.4-1+athom_arm64.deb
+ 76e77bbbe0d9c1f5d7b4d58a61f63fccf84898269048dad36d7e88b6ef96a462 404128 libnm0_1.42.4-1+athom_arm64.deb
+ 2efab6da7e84c79a7b141ea9a38bc7e7fe6b4de0006c42390ed1e809430ae943 7776 network-manager-config-connectivity-debian_1.42.4-1+athom_all.deb
+ 0d5028a5a7e3a887bbc1ec8e3644cb5355b6092c1d4562764732c0f528d579cd 10825328 network-manager-dbgsym_1.42.4-1+athom_arm64.deb
+ 46ac872533cde2acb5c15909efe5b43390dedcb120e3f7ee325233ebfeaa3727 201908 network-manager-dev_1.42.4-1+athom_all.deb
+ affce33478127962f9b575f5419d34e34715d54e6dc7f2e1a1da043654814385 12337 network-manager_1.42.4-1+athom_arm64.buildinfo
+ d839b3ad8da016e0ad60ecebf74e3173d4c456910eebcae8a2af2b7f34516126 2959852 network-manager_1.42.4-1+athom_arm64.deb
+Files:
+ b9b55cdb5ffe8ee51db223629241e306 77336 introspection optional gir1.2-nm-1.0_1.42.4-1+athom_arm64.deb
+ ab8e497849e3fe94123dd2e54a06d839 713424 libdevel optional libnm-dev_1.42.4-1+athom_arm64.deb
+ a5a928302d9bdd494314c3edc7313ced 2571884 debug optional libnm0-dbgsym_1.42.4-1+athom_arm64.deb
+ 20301815c2ff5b45b153c25732b33af4 404128 libs optional libnm0_1.42.4-1+athom_arm64.deb
+ afa6726e4478785fb7ba1481ad43ad88 7776 net optional network-manager-config-connectivity-debian_1.42.4-1+athom_all.deb
+ 3dce5daf4a7a3c1cc25e409fc53e35ca 10825328 debug optional network-manager-dbgsym_1.42.4-1+athom_arm64.deb
+ 8d1df57fca7bbace0180eda2a971ef25 201908 devel optional network-manager-dev_1.42.4-1+athom_all.deb
+ 3f7ee4edb05429bb1628e1a6d62fd9fc 12337 net optional network-manager_1.42.4-1+athom_arm64.buildinfo
+ d916d66b7e15872ef95c3490a8c1ab0d 2959852 net optional network-manager_1.42.4-1+athom_arm64.deb
