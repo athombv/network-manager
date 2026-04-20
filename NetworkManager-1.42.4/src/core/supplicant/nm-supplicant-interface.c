@@ -1344,9 +1344,11 @@ _starting_check_ready(NMSupplicantInterface *self)
           NM_SUPPL_CAP_TO_CHAR(priv->iface_capabilities, NM_SUPPL_CAP_TYPE_SAE),
           NM_SUPPL_CAP_TO_CHAR(priv->iface_capabilities, NM_SUPPL_CAP_TYPE_BIP));
 
-    /* Other global properties are set in constructed() because they don't
-     * depend on interface capabilities. */
-    if (_get_capability(priv, NM_SUPPL_CAP_TYPE_SAE) == NM_TERNARY_TRUE) {
+    /* Always enable SAE-H2E. The brcmfmac driver (CM4) supports external SAE
+     * but does not advertise it as a D-Bus capability, so the capability check
+     * would fail. SaePwe=2 is safe to set unconditionally — wpa_supplicant
+     * ignores it for non-SAE connections. */
+    {
         _LOGD("enabling SAE-H2E (SaePwe=2)");
         nm_dbus_connection_call_set(priv->dbus_connection,
                                     priv->name_owner->str,
