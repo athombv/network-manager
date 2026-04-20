@@ -1,3 +1,9 @@
+network-manager (1.42.4-1+athom2) bookworm; urgency=medium
+
+  * Always enable SAE H2E
+
+ -- Herman Meerlo <herman.meerlo@athom.nl>  Mon, 20 Apr 2026 13:42:16 +0200
+
 network-manager (1.42.4-1+athom) bullseye; urgency=medium
 
   * Do not drop PSK when 4 way handshake fails
