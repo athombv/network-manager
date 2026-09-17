@@ -1,3 +1,10 @@
+network-manager (1.42.4-1+athom3) bookworm; urgency=medium
+
+  * Support multiple routes to the same IPv6 prefix through different
+    gateways learned from router advertisements
+
+ -- Niels de Boer <niels.deboer@athom.nl> Mon, 15 Sep 2026 14:31:16 +0200
+
 network-manager (1.42.4-1+athom2) bookworm; urgency=medium
 
   * Always enable SAE H2E
